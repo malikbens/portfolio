@@ -1,0 +1,29 @@
+.nav-item-wrapper{
+    display: flex;
+}
+
+.navbar-main{
+    display: flex;
+}
+
+.nav-links{
+    display: flex;
+}
+
+.nav-item{
+    font-weight: bold;
+}
+
+ul li.active-link{
+    text-decoration:underline;
+}
+
+@media(max-width: 800px){
+   .navbar-main{
+       display: none;
+   }
+}
+
+.nav-top-left{
+    width: 100px;
+}

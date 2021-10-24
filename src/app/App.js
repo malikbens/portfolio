@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import AppRoutes from "./routes";
 import Headermain from "../header";
+import Navbar from "../components/navbar/Navbar";
 import AnimatedCursor from "react-animated-cursor";
 import Socialicons from "../components/socialicons";
 import "./App.css";
@@ -36,6 +37,7 @@ export default function App() {
       </div>
       <ScrollToTop>
         <Headermain />
+        <Navbar />
         <AppRoutes />
         <Socialicons />
       </ScrollToTop>

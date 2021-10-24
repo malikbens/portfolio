@@ -6,8 +6,7 @@ export default function About() {
     return (
         <div className='about'>
             <div className='a-left'>
-                <div className='a-card bg'></div>
-                <div className='a-card'>
+                <div className='a-card bg'>
                     <img src={ImgCard} alt='' className='a-img' />
                 </div>
             </div>

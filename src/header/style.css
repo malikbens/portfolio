@@ -188,6 +188,12 @@
     }
 }
 
+@media(min-width: 800px){
+    .menu__button.nav_ac{
+        display: none;
+    }
+}
+
 .menu_footer {
     bottom: 0;
     font-family: Marcellus;
