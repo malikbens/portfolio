@@ -43,3 +43,13 @@
 .a-right{
     flex: 1;
 }
+
+.a-sub{
+    text-align: justify;
+    padding-top: 30px;
+}
+
+.contact-me{
+    text-decoration: underline;
+    color: red;
+}

@@ -5,10 +5,15 @@
     column-gap: 4rem;
     -moz-column-gap: 4rem;
     -webkit-column-gap: 4rem;
+    display: flex;
+}
+
+.About-header.container{
+    padding-top: 150px;
 }
 
 .po_item {
-    display: inline-block;
+    
     width: 100%;
     text-align: center;
     margin: 0.5rem auto;
@@ -49,7 +54,7 @@
     opacity: 0;
     transition-delay: 1s;
     transition: 0.3s ease;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .po_item:hover {

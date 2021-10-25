@@ -20,7 +20,6 @@ export default function Socialicons(params) {
           </a>
         </li>
       </ul>
-      <p>Contactez-moi</p>
     </div>
   );
 }

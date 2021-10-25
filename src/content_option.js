@@ -16,7 +16,7 @@ const introdata = {
         sixth: "Wordpress/Prestashop"
     },
     description: "hbihkjnj",
-    img_url: "",
+    img_url:"https://i.ibb.co/2dsb61c/IMG-0129.jpg" ,
 };
 
 const dataabout = {
@@ -94,19 +94,19 @@ const services = [{
 ];
 
 const dataportfolio = [{
-        img: "https://i.ibb.co/Gn4Tj9Y/cityprod360.png",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://i.ibb.co/yRSbBk7/cityprod360.png",
+        desctiption: "City'Prod 360 ets un site de vente de service audiovisuelle réalisé avec Wordpress ",
+        link: "https://cityprod360.com",
     },
     {
-        img: "https://i.ibb.co/nmT2NFj/ethics-formation.png",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://i.ibb.co/DgJNRnk/ethics-formation.png",
+        desctiption: "Ethics-formation est une plateforme en ligne d'apprentissage , réalisé avec Wordpress",
+        link: "https://ethics-formation.com",
     },
     {
-        img: "https://i.ibb.co/BPbgN3p/gontran-dessagnes.png",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://i.ibb.co/0n6tyjv/gontran-dessagnes.png",
+        desctiption: "Site associatif , réalisé avec Wordpress",
+        link: "https://gontran-dessagnes.fr",
     },
 ];
 

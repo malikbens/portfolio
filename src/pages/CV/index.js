@@ -1,7 +1,10 @@
 import React from "react";
 import "./style.css";
+import { Link } from "react-router-dom";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
+import CvLink from "../../assets/cv/cv.pdf";
+import DlIcon from "../../assets/images/download.png";
 import {
   dataabout,
   meta,
@@ -16,7 +19,7 @@ export default function CV() {
       <Container className="About-header">
         <Helmet>
           <meta charSet="utf-8" />
-          <title> About | {meta.title}</title>
+          <title> CV | {meta.title}</title>
           <meta
             name="description"
             content={meta.description}
@@ -24,7 +27,8 @@ export default function CV() {
         </Helmet>
         <Row className="mb-5 mt-3">
           <Col lg="8">
-            <h1 className="display-4 mb-4">Curriculum vitae...</h1>
+            <h1 className="display-4 mb-4">Curriculum vitae...  <Link to={CvLink} target="_blank" download ><img src={DlIcon} alt="" className="dl-icon" /></Link></h1>
+            
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
         </Row>

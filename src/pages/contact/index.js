@@ -66,7 +66,7 @@ export default function ContactUs() {
 
   return (
     <HelmetProvider>
-      <Container>
+      <Container className="contact-container">
         <Helmet>
           <meta charSet="utf-8" />
           <title>{meta.title} | Contact</title>

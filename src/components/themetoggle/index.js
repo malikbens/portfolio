@@ -13,13 +13,12 @@ const Themetoggle = () => {
     localStorage.setItem('theme', theme);
   }, [theme]);
   return (
-    <div className="nav_ac" onClick={themetoggle}>
+    <div className="nav-top-left" onClick={themetoggle}>
       <img
         className="mode-switch ml-auto"
         onClick={() => setLightMode(prevMode => !prevMode)}
         src={lightMode ? Logo : WhiteLogo}
         alt="lightning-bolt"
-        height="30px"
       />
     </div>
   );

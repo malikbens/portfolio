@@ -53,6 +53,9 @@ section {
     .intro_sec .text,
     .intro_sec .h_bg-image {
         width: 100%;
+        position:absolute;
+        padding-top: 200px;
+        background: rgba(0, 0, 0, 0.5);
     }
 }
 
@@ -197,6 +200,7 @@ section {
         height: 600px;
         min-height: 75vh;
         margin-bottom: 30px;
+        position: absolute;
     }
     .intro_sec .h_bg-image .block {
         top: unset;
