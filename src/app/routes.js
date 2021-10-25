@@ -3,10 +3,10 @@ import React from "react";
 import { Route } from "react-router-dom";
 import { AnimatedSwitch } from "react-router-transition";
 import Home from "../pages/home";
-import CV from "../pages/CV";
+import About from "../pages/about";
 import Portfolio from "../pages/portfolio";
 import ContactUs from "../pages/contact";
-import About from "../pages/about";
+
 
 function AppRoutes() {
   return (
@@ -18,10 +18,9 @@ function AppRoutes() {
       className="page"
     >
       <Route exact path="/" component={Home} />
-      <Route path="/CV" component={CV} />
+      <Route path="/about" component={About} />
       <Route path="/portfolio" component={Portfolio} />
       <Route path="/contact" component={ContactUs} />
-      <Route path="/about" component={About} />
       <Route path="*" component={Home} />
     </AnimatedSwitch>
   );

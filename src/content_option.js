@@ -5,8 +5,8 @@ const meta = {
 };
 
 const introdata = {
-    name:'Malik BENS ',
-    title: "Developpeur Fullstack Freelance",
+    name:'Malik BEN\'S ',
+    title: "Developpeur Freelance Fullstack",
     animated: {
         first: "JavaScript",
         second: "React.js",
@@ -20,8 +20,8 @@ const introdata = {
 };
 
 const dataabout = {
-    title: "Mon parcour : ",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "Un peu plus sur moi ... ",
+    aboutme: "Mon parcours de développeur à commencer au centre de formation l'Afpa dans le Var, où j'ai suivis une formation de développeur fullstack durant laquelle j'ai pu apprendre les stacks nécessaires au développement frontend et backend d'une application web/web mobile (HTML/CSS/JS/PHP) et les connaissances transverses nécessaires au bon développement d'un projet (clean code , git ,CMS ...) .Grâce à la réalisation des différents projets de mes clients , j'ai pu me spécialiser à l'utilisation de WordPress et de Javascript notemment à la librairie React.js . Aujoud'hui spécialisé en MERN stack je suis à votre disposition pour le developpements de vos idées !  "
 };
 const worktimeline = [{
         jobtitle: "Développeur Freelance ",
@@ -35,6 +35,10 @@ const worktimeline = [{
         jobtitle: "Photographe",
         date: "2017",
     },
+    {
+        jobtitle:"Baccalauréat Scientifique ",
+        date:"2014"
+    }
 ];
 
 const skills = [{
@@ -80,16 +84,20 @@ const skills = [{
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Mission freelance",
+        description: "Renfort de votre équipe",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Création d'application WEB ",
+        description: "Développement d'application web fullstack  JavaScript en utilisant MERN ",
     },
     {
         title: "Wordpress",
         description: "Création de site Wordpress clef en main",
+    },
+    {
+        title: "UI & UX",
+        description: "Création de votre identité visuelle",
     },
 ];
 

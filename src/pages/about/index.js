@@ -1,27 +1,107 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import './style.css';
-import ImgCard from '../../assets/images/about-img.png';
+import React from "react";
+import "./style.css";
+import { Link } from "react-router-dom";
+import { Helmet, HelmetProvider } from "react-helmet-async";
+import { Container, Row, Col } from "react-bootstrap";
+import CvLink from "../../assets/cv/cv.pdf";
+import DlIcon from "../../assets/images/download.png";
+import {
+  dataabout,
+  meta,
+  worktimeline,
+  skills,
+  services,
+} from "../../content_option";
 
 export default function About() {
-    return (
-        <div className='about'>
-            <div className='a-left'>
-                <div className='a-card bg'>
-                    <img src={ImgCard} alt='' className='a-img' />
-                </div>
+  return (
+    <HelmetProvider>
+      <Container className="About-header">
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title> CV | {meta.title}</title>
+          <meta
+            name="description"
+            content={meta.description}
+          />
+        </Helmet>
+        <Row className="mb-5 mt-3">
+          <Col lg="8">
+            <h1 className="display-4 mb-4">À propos ...<button className="dl-button">Télécharger le CV<Link to={CvLink} target="_blank" download ><img src={DlIcon} alt="" className="dl-icon" /></Link></button></h1>
+            <hr className="t_border my-4 ml-0 text-left" />
+            
+          </Col>
+        </Row>
+        <Row className="sec_sp">
+          <Col lg="5">
+            <h3 className="color_sec py-4">{dataabout.title}</h3>
+          </Col>
+          <Col lg="7" className="d-flex align-items-center">
+            <div className="about-me p ">
+              <p>{dataabout.aboutme}</p>
             </div>
-            <div className='a-right'>
-                <h1 className='a-title'>Un peu plus sur moi ....</h1>
-                <div className='a-sub'>
-                    <p>
-                
-                    Mon parcours de développeur à commencer au centre de formation l'Afpa dans le Var, où j'ai suivis une formation de développeur fullstack durant laquelle j'ai pu apprendre les stacks nécessaires au développement frontend et backend d'une application web/web mobile (HTML/CSS/JS/PHP) et les connaissances transverses nécessaires au bon développement d'un projet (clean code , git ,CMS ...) .
-                   <br></br> Grâce à la réalisation des différents projets de mes clients , j'ai pu me spécialiser à l'utilisation de WordPress et de Javascript notemment à la librairie React.js .
-                    Aujoud'hui spécialisé en MERN stack je suis à votre disposition pour le developpements de vos idées , alors n'attendez plus , <Link to="/contact" className='contact-me'>contactez-moi</Link> !
-                    </p>
+          </Col>
+        </Row>
+        <Row className=" sec_sp">
+          <Col lg="5">
+            <h3 className="color_sec py-4">Chronologie : </h3>
+          </Col>
+          <Col lg="7">
+            <table className="table caption-top">
+              <tbody>
+                {worktimeline.map((data, i) => {
+                  return (
+                    <tr key={i}>
+                      <th scope="row">{data.jobtitle}</th>
+                      <td>{data.where}</td>
+                      <td>{data.date}</td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </Col>
+        </Row>
+        <Row className="sec_sp">
+          <Col lg="5">
+            <h3 className="color_sec py-4">Stacks</h3>
+          </Col>
+          <Col lg="7">
+            {skills.map((data, i) => {
+              return (
+                <div key={i}>
+                  <h3 className="progress-title">{data.name}</h3>
+                  <div className="progress">
+                    <div
+                      className="progress-bar"
+                      style={{
+                        width: `${data.value}%`,
+                      }}
+                    >
+                      <div className="progress-value">{data.value}%</div>
+                    </div>
+                  </div>
                 </div>
-            </div>
-        </div>
-    )
+              );
+            })}
+          </Col>
+        </Row>
+        <Row className="sec_sp">
+          <Col lang="5">
+            <h3 className="color_sec py-4">Services</h3>
+          </Col>
+          <Col lg="7">
+            {services.map((data, i) => {
+              return (
+                <div className="service_ py-4" key={i}>
+                  <h5 className="service__title">{data.title}</h5>
+                  <p className="service_desc">{data.description}</p>
+                </div>
+              );
+            })}
+          </Col>
+        </Row>
+      </Container>
+    </HelmetProvider>
+  );
 }

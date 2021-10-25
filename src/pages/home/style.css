@@ -236,3 +236,7 @@ section {
 .intro_sec .h_bg-image {
     filter: saturate(0.5);
 }
+
+.mb-1x{
+    font-size: 1.9rem;
+}
