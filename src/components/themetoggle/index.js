@@ -6,7 +6,7 @@ const Themetoggle = () => {
   const [theme, settheme] = useState(localStorage.getItem("theme"));
   const [lightMode, setLightMode] = React.useState(false);
   const themetoggle = () => {
-    settheme(theme === "dark" ? "light" : "dark");
+    settheme(theme === "light" ? "dark" : "light");
   };
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme);

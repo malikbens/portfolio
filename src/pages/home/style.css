@@ -54,6 +54,7 @@ section {
     .intro_sec .h_bg-image {
         width: 100%;
         position:absolute;
+        margin-top: 70px;
         padding-top: 200px;
         background: rgba(0, 0, 0, 0.5);
     }
