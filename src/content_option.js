@@ -5,14 +5,14 @@ const meta = {
 };
 
 const introdata = {
-    name:'Malik BEN\'S ',
+    name:'Malik BENSERRADJ',
     title: "Developpeur Freelance Fullstack",
     animated: {
-        first: "JavaScript",
-        second: "React.js",
-        third: "Node.js",
-        fourth: "Express.js",
-        fifth: "MongoDB/Mysql",
+        first: "React.js",
+        second: "TypeScript",
+        third: "PHP",
+        fourth: "Symfony",
+        fifth: "Mysql",
         sixth: "Wordpress/Prestashop"
     },
     description: "hbihkjnj",
@@ -46,7 +46,7 @@ const skills = [{
         value: 80,
     },
     {
-        name: "JavaScript",
+        name: "JavaScript/TypeScript",
         value: 85,
     },
     {
@@ -58,11 +58,11 @@ const skills = [{
         value: 60,
     },
     {
-        name: "Express",
-        value: 60,
+        name: "PHP",
+        value: 70,
     },
     {
-        name: " MongoDB",
+        name: "Symfony",
         value: 70,
     },
     {
