@@ -25,8 +25,7 @@ function Portfolio() {
               <div key={i} className="po_item">
                 <img src={data.img} alt="" />
                 <div className="content">
-                  <p>{data.desctiption}</p>
-                  <a href={data.link}>Voir le projet</a>
+                  <a href={data.link}>{data.desctiption}</a>
                 </div>
               </div>
             );

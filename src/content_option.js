@@ -88,17 +88,27 @@ const services = [{
 
 const dataportfolio = [{
         img: "https://i.ibb.co/yRSbBk7/cityprod360.png",
-        desctiption: "City'Prod 360 ets un site de vente de service audiovisuelle réalisé avec Wordpress ",
+        desctiption: "City'Prod 360",
         link: "https://cityprod360.com",
     },
     {
         img: "https://i.ibb.co/DgJNRnk/ethics-formation.png",
-        desctiption: "Ethics-formation est une plateforme en ligne d'apprentissage , réalisé avec Wordpress",
+        desctiption: "Ethics-formation",
         link: "https://ethics-formation.com",
     },
     {
         img: "https://i.ibb.co/0n6tyjv/gontran-dessagnes.png",
-        desctiption: "Site associatif , réalisé avec Wordpress",
+        desctiption: "Gontran Dessages",
+        link: "https://gontran-dessagnes.fr",
+    },
+    {
+        img: "https://i.ibb.co/0n6tyjv/gontran-dessagnes.png",
+        desctiption: "Aquilone Videos",
+        link: "https://gontran-dessagnes.fr",
+    },
+    {
+        img: "https://i.ibb.co/0n6tyjv/gontran-dessagnes.png",
+        desctiption: "Aquilone Videos",
         link: "https://gontran-dessagnes.fr",
     },
 ];
