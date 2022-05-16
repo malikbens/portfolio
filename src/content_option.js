@@ -8,38 +8,22 @@ const introdata = {
     name:'Malik BEN\'S ',
     title: "Developpeur Freelance Fullstack",
     animated: {
-        first: "JavaScript",
-        second: "React.js",
-        third: "Node.js",
-        fourth: "Express.js",
-        fifth: "MongoDB/Mysql",
-        sixth: "Wordpress/Prestashop"
+        first: "React.js",
+        second: "Wordpress/Prestashop",
+        third: 'Site vitrine',
+        fourth:"E-commerce",
+        fith: "SEO"
+
     },
     description: "hbihkjnj",
-    img_url:"https://i.ibb.co/2dsb61c/IMG-0129.jpg" ,
+    img_url:"https://i.ibb.co/qyJyVt7/removal-ai-tmp-6282998e1f2f0-A770-WZ.png" ,
+    
 };
 
 const dataabout = {
     title: "Un peu plus sur moi ... ",
-    aboutme: "Mon parcours de développeur à commencer au centre de formation l'Afpa dans le Var, où j'ai suivis une formation de développeur fullstack durant laquelle j'ai pu apprendre les stacks nécessaires au développement frontend et backend d'une application web/web mobile (HTML/CSS/JS/PHP) et les connaissances transverses nécessaires au bon développement d'un projet (clean code , git ,CMS ...) .Grâce à la réalisation des différents projets de mes clients , j'ai pu me spécialiser à l'utilisation de WordPress et de Javascript notemment à la librairie React.js . Aujoud'hui spécialisé en MERN stack je suis à votre disposition pour le developpements de vos idées !  "
+    aboutme: "👋🏾 Hello moi c'est Malik ,développeur fullstack spécialisé dans le développement de projet sous Wordpress et React depuis 2 ans. Association, auto-entrepreneur, PME, grande entreprise...  j’ai eu la chance de pouvoir travailler sur plusieurs projets pour le compte de mes clients. "
 };
-const worktimeline = [{
-        jobtitle: "Développeur Freelance ",
-        date: "2021",
-    },
-    {
-        jobtitle: "Formation AFPA Développeur Fullstack",
-        date: "2020",
-    },
-    {
-        jobtitle: "Photographe",
-        date: "2017",
-    },
-    {
-        jobtitle:"Baccalauréat Scientifique ",
-        date:"2014"
-    }
-];
 
 const skills = [{
         name: "HTML/CSS",
@@ -136,7 +120,6 @@ export {
     meta,
     dataabout,
     dataportfolio,
-    worktimeline,
     skills,
     services,
     introdata,

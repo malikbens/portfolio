@@ -8,7 +8,6 @@ import DlIcon from "../../assets/images/download.png";
 import {
   dataabout,
   meta,
-  worktimeline,
   skills,
   services,
 } from "../../content_option";
@@ -40,26 +39,6 @@ export default function About() {
             <div className="about-me p ">
               <p>{dataabout.aboutme}</p>
             </div>
-          </Col>
-        </Row>
-        <Row className=" sec_sp">
-          <Col lg="5">
-            <h3 className="color_sec py-4">Chronologie : </h3>
-          </Col>
-          <Col lg="7">
-            <table className="table caption-top">
-              <tbody>
-                {worktimeline.map((data, i) => {
-                  return (
-                    <tr key={i}>
-                      <th scope="row">{data.jobtitle}</th>
-                      <td>{data.where}</td>
-                      <td>{data.date}</td>
-                    </tr>
-                  );
-                })}
-              </tbody>
-            </table>
           </Col>
         </Row>
         <Row className="sec_sp">

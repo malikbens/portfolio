@@ -9,13 +9,13 @@ export default function Socialicons(params) {
       <ul>
         
         <li>
-          <a href={socialprofils.github}>
+          <a target= "_black" href={socialprofils.github}>
             <FaGithub />
           </a>
         </li>
         
         <li>
-          <a href={socialprofils.linkedin}>
+          <a target= "_black" href={socialprofils.linkedin}>
             <FaLinkedin />
           </a>
         </li>

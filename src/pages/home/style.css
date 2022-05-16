@@ -235,7 +235,7 @@ section {
 }
 
 .intro_sec .h_bg-image {
-    filter: saturate(0.5);
+    filter: saturate(0.1);
 }
 
 .mb-1x{
