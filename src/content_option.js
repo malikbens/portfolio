@@ -5,15 +5,17 @@ const meta = {
 };
 
 const introdata = {
-    name:'Malik BEN\'S ',
+    name:'Malik BENSERRADJ',
     title: "Developpeur Freelance Fullstack",
     animated: {
         first: "React.js",
-        second: "Wordpress/Prestashop",
-        third: 'Site vitrine',
-        fourth:"E-commerce",
-        fith: "SEO"
-
+        second:"PHP / Symfony",
+        third:"Clean Code",
+        fourth: "Wordpress/Prestashop",
+        fith: 'Site vitrine',
+        sixth:"E-commerce",
+        seventh: "SEO",
+        eighth:"salut"
     },
     description: "hbihkjnj",
     img_url:"https://i.ibb.co/qyJyVt7/removal-ai-tmp-6282998e1f2f0-A770-WZ.png" ,
@@ -30,7 +32,7 @@ const skills = [{
         value: 80,
     },
     {
-        name: "JavaScript",
+        name: "JavaScript/TypeScript",
         value: 85,
     },
     {
@@ -42,11 +44,11 @@ const skills = [{
         value: 60,
     },
     {
-        name: "Express",
-        value: 60,
+        name: "PHP",
+        value: 70,
     },
     {
-        name: " MongoDB",
+        name: "Symfony",
         value: 70,
     },
     {
