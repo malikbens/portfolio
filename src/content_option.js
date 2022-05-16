@@ -15,7 +15,6 @@ const introdata = {
         fith: 'Site vitrine',
         sixth:"E-commerce",
         seventh: "SEO",
-        eighth:"salut"
     },
     description: "hbihkjnj",
     img_url:"https://i.ibb.co/qyJyVt7/removal-ai-tmp-6282998e1f2f0-A770-WZ.png" ,
